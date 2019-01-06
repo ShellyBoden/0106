@@ -1,0 +1,149 @@
+#animate{
+    z-index: 12;
+}
+
+
+Html{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3efab+25,f5b3a8+100 */
+    width:100vw;
+    height: auto;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f3efab 25%, #f5b3a8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f3efab 25%,#f5b3a8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#f3efab 25%,#f5b3a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f5b3a8',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+    }
+
+body{
+    width: 1280px;
+    height: 10000px;
+}
+
+.door{
+    display: flex;
+}
+
+
+.wardrobe{
+    position: absolute;
+    top: 0px;
+    left: 182px;
+    z-index: 1;
+}
+
+.door_l{
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    transform-origin: 0 0;
+    transform: rotate3d(0, 1, 0, 55deg);    
+}
+
+
+.door_r{
+    position: absolute;
+    top: 0px;
+    left: 640px;
+    z-index: 2;
+    transform-origin: 640px 0px;
+    transform: rotate3d(0, 1, 0, 55deg); 
+}
+
+#tital{
+    position: absolute;
+    top: 480px;
+    left: 390px;
+    z-index: 4;
+}
+
+#trigger_tital{
+    position: absolute;
+    top: 400px;
+}
+
+.cloth{
+    position: absolute;
+    top: 1283px;
+    left: 0px;
+    z-index: 3;
+}
+
+#cloth_2{
+    position: absolute;
+    top: 700px;
+    left: 0px;
+
+
+}
+
+#scissors{
+    position: absolute;
+    top: 1400px;
+    left: -600px;
+    z-index: 4;
+}
+
+/*
+#animate2{
+	transition:  1s;
+}
+*/
+
+#trigger{
+    position: absolute;
+    top: 900px;
+}
+
+#trigger2{
+    position: absolute;
+    top: 1580px;
+}
+
+/*
+#trigger2{
+    position: absolute;
+    top: 400px;
+}
+*/
+
+.doll{
+    position: absolute;
+    top:8187px;
+    left: 434px;
+}
+
+.petal{
+    position: absolute;
+    top:3500px;
+    left: 410px;
+}
+
+.clothes{
+    position: absolute;
+    top: 8300px;
+    left: 383px;
+}
+
+
+.letterpaper{
+    position: absolute;
+    top:9329px;
+    left: 365px;
+    z-index: 10;
+}
+
+.envelope_1{
+    position: absolute;
+    top:9648px;
+    left: 354px;
+    z-index: 11;
+}
+
+.envelope_2{
+    position: absolute;
+    top:9316px;
+    left: 320px;
+    z-index: 9;
+}
